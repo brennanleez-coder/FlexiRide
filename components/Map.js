@@ -9,7 +9,7 @@ import { useDispatch } from 'react-redux'
 import tw from 'tailwind-react-native-classnames'
 import axios from 'axios'
 import { setTravelTimeInformation } from '../slices/navSlice'
-import { Icon } from 'react-native-elements'
+
 const Map = () => {
     const origin = useSelector(selectOrigin)
     const destination = useSelector(selectDestination)
@@ -44,14 +44,6 @@ const Map = () => {
     }, [origin, destination])
   return (
         <View style={tw`flex-1`}>
-            {/* react native elements menu icon */}
-            <Icon
-            name="menu"
-            type="ionicon"
-            color="black"
-            size={30}
-            style={tw`absolute top-10 left-5 z-50`}
-            />
             
         <MapView
             ref={mapRef}
