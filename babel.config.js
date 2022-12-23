@@ -9,7 +9,8 @@ module.exports = function(api) {
           "moduleName": "@env",
           "path": ".env",
         }
-      ]
+      ],
+      "tailwindcss-react-native/babel"
     ]
   };
 };

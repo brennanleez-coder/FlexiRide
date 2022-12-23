@@ -8,6 +8,7 @@ FlexiRide is a mobile application that allows users to book and pay for rides wi
 * __Autocomplete search__: FlexiRide uses the Google Autocomplete feature to provide suggestions for search queries as the user types, making it easier for users to find their desired destination.
 * __Route planning__: FlexiRide uses the Directions API and Distance Matrix API to calculate the optimal route between two or more locations and provide users with detailed directions.
 * __Customized styling__: FlexiRide uses Tailwind CSS to allow for easy and quick styling of elements, resulting in a visually appealing and consistent user interface.
+(Note: tailwindcss-react-native was used for FlexiEats while tailwindcss was used for FlexiRide)
 
 
 
